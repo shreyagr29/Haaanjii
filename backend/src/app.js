@@ -11,7 +11,7 @@ const io = connectToSocket(server);
 
 app.set("port", process.env.PORT || 5000);
 app.use(cors({
-    origin: 'https://haaanjii-frontend-ej47.onrender.com',
+    origin: 'https://vercel.com/shreyagr29s-projects/haaanjii/AuvaELP9Xje9Y5NAC7uY6BRTaCXe',
     credentials: true 
   }));
 app.use(express.json({limit: "50mb"}));
